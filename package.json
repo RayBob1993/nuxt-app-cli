@@ -1,0 +1,43 @@
+{
+  "name": "nuxt-app-cli",
+  "version": "1.0.0",
+  "description": "Nuxt Application CLI",
+  "author": "Turkov Dmitry <dimaxfallenangel@yandex.ru>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": {
+    "nuxt-app": "src/cli/index.js"
+  },
+  "engines": {
+    "node": ">= 11.14.0"
+  },
+  "files": [
+    "src/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RayBob1993/nuxt-app-cli.git"
+  },
+  "homepage": "https://github.com/RayBob1993/nuxt-app-cli",
+  "bugs": {
+    "url": "https://github.com/RayBob1993/nuxt-app-cli/issues"
+  },
+  "keywords": [
+    "cmg",
+    "cli",
+    "nuxtjs",
+    "vuejs",
+    "javascript"
+  ],
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "cac": "^6.5.4",
+    "sao": "^1.7.0",
+    "shelljs": "^0.8.3"
+  }
+}

@@ -1,0 +1,6 @@
+<%_ if (isComponentVideoJS) { _%>
+@import "videojs";
+<%_ } _%>
+<%_ if (isComponentSwiper) { _%>
+@import "swiper";
+<%_ } _%>

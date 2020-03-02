@@ -1,0 +1,11 @@
+<%_ if (isBootstrap) { _%>
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+@import '~bootstrap/scss/mixins';
+<%_ } _%>
+
+<%_ if (isElementUI) { _%>
+@import '~element-ui/packages/theme-chalk/src/common/var.scss';
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+<%_ } _%>
