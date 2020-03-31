@@ -42,9 +42,7 @@ export default {
 	],
 	modules: [
     'nuxt-client-init-module',
-    <%_ if (isAxios) { _%>
-		'@nuxtjs/axios',
-    <%_ } _%>
+    '@/modules/error',
     <%_ if (isScrollTo) { _%>
     'vue-scrollto/nuxt',
     <%_ } _%>
@@ -60,6 +58,9 @@ export default {
     <%_ } _%>
     <%_ if (isI18N) { _%>
     'nuxt-i18n',
+    <%_ } _%>
+    <%_ if (isAxios) { _%>
+    '@nuxtjs/axios',
     <%_ } _%>
     <%_ if (isMediaQuery) { _%>
 		[
